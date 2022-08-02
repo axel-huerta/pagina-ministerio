@@ -1,0 +1,43 @@
+body{
+    color: white;
+    
+    background-color: rgba(0, 0, 0, 0.911);
+}
+.header{
+    background-color: rgba(32, 32, 122, 0.774);
+    height: 10vh;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+.header h2{
+    padding: 10px;
+}
+
+main section{
+    padding: 15px;
+}
+main section article{
+    padding: 10px;
+}
+
+.video-div{
+    text-align: center;
+} 
+video{
+    width: 60vw;
+}
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.contenedor-botones button{
+    width: 7vw;
+    color: white;
+    background-color: rgba(32, 32, 122, 0.774);
+    border-radius: 1rem;
+}
+/*contenedor*/
+section .cont p{
+    font-size: 800px;
+}

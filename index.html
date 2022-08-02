@@ -5,34 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <style>
-        header{
-            height: 60vh;
-            text-align: center;
-        }
-        header h1{
-            padding-top: 80px;
-        }
-        #list-example{
-            margin: 25px;
-        }
-        .scrollspy-example{
-            margin: 15px;
-        }
-        .carousel-item img{
-            margin: auto;
-            width: 80vw;
-            height: 50vh;
-            border: 2px solid aqua;
-            border-radius: 25px;
-        }
-        .navbar{
-          width: 100%;
-          margin-top: 0;
-          position: fixed;
-          z-index: 1000;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
   <body class="bg-dark text-white">
     <nav class="navbar navbar-expand-lg bg-dark">
@@ -111,7 +84,7 @@
           <div class="card-body">
             <h5 class="card-title">Juventud</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloribus quasi sequi repellat pariatur officiis architecto neque, earum quidem ipsa, illo repudiandae hic obcaecati, aut soluta deleniti corrupti quod facilis?</p>
-            <a href="#" class="btn btn-primary">entrar</a>
+            <a href="/pagina.html" class="btn btn-primary">entrar</a>
           </div>
         </div>
 
@@ -125,6 +98,31 @@
         </div>
 
       </section>
+      <div class="form-uno">
+        <form id="form-dos">
+          <div style="text-align: center;"><h2>Registrate gratis</h2></div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    <hr>
+    <footer>
+      <div class="foter">
+        <h3>redes</h3>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
