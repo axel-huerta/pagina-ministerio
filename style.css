@@ -1,9 +1,15 @@
+body{
+  background-color: rgb(16, 5, 26);
+}
 header{
     height: 60vh;
     text-align: center;
 }
 header h1{
     padding-top: 80px;
+}
+header p{
+  padding: 90px;
 }
 #list-example{
     margin: 25px;
@@ -24,17 +30,17 @@ header h1{
   position: fixed;
   z-index: 1000;
 }
+/*:................firmulario..................*/
 .form-uno{
   display: flex;
   justify-content: center;
 }
 #form-dos{
-  width: 50vw;
+  width: 990px;
   padding: 50px;
 }
 
 /*foter*/
-
 footer .foter{
     text-align: center;
 }

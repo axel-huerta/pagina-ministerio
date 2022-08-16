@@ -87,10 +87,12 @@ tres.addEventListener("click", ()=>{
     `;
 });
 cuatro.addEventListener("click", ()=>{
-    alert("Bienvenido a la unidad: 4");
     let division = document.getElementById("cont");
     division.innerHTML = `
     <div>
+        <div class="alert alert-primary" role="alert">
+            Felicitaciones estas avanzando, suigue asi!!!
+        </div>
         <section>
             <h2>MODULO CUATRO</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis reiciendis velit quisquam possimus non molestiae fuga magnam exercitationem labore qui quis nam, doloribus quos, inventore eos tempore eligendi perspiciatis. Natus!</p>
